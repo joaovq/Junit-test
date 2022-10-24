@@ -5,8 +5,6 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 
 public class TestOperacoes extends TestCase implements Test {
-
-
     public void testSoma(){
         int valorResultante;
         int valorEsperado = 9;
