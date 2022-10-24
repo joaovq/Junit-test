@@ -61,4 +61,22 @@ public class TestOperacoes extends TestCase implements Test {
         valorEsperado=1.125d;
         assertEquals(valorEsperado, valorResultante,0);
     }
+    public void testSubtracao(){
+        int valorEsperado;
+
+        int valorResultante = Operacoes.subtracao(5, 5);
+        valorEsperado=0;
+        assertEquals(valorEsperado, valorResultante,0);
+        valorResultante = Operacoes.subtracao(6, 5);
+        valorEsperado=1;
+        assertEquals(valorEsperado, valorResultante,0);
+        valorResultante = Operacoes.subtracao(7, 2);
+        valorEsperado=5;
+        assertEquals(valorEsperado, valorResultante,0);
+        valorResultante = Operacoes.subtracao(9, 8);
+        valorEsperado=1;
+        assertEquals(valorEsperado, valorResultante,0);
+    }
+
+
 }
